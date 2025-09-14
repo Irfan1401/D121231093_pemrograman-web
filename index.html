@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CV Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyCV</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero fade-in">
+  <div class="cover-image">
+    <img src="foto_header.jpeg" alt="Professional website header featuring Irfan Tanzilur Rahman" />
+  </div>
+  <div class="profile-container">
+  <img src="foto_profile.jpg" alt="Profile Picture of Irfan" class="profile-pic" />
+    <h1>Irfan Tanzilur Rahman</h1>
+    <p>Data Analyst | Data Scientist</p>
+  </div>
+</section>
+
+  <!-- About -->
+ <section id="about" class="about fade-in">
+  <h2>About Me</h2>
+  <p>
+    I am a dedicated Data Analyst and aspiring Data Scientist with a passion for
+    transforming raw data into valuable insights. My expertise includes data
+    visualization, statistical analysis, and building predictive models that
+    help businesses make data-driven decisions. I enjoy exploring datasets,
+    uncovering patterns, and delivering actionable solutions.
+  </p>
+</section>
+
+  <!-- Skills -->
+<section id="skills" class="skills fade-in">
+  <h2>My Skills</h2>
+  <div class="skill">
+    <span>Python</span>
+    <div class="progress"><div style="width: 90%"></div></div>
+  </div>
+  <div class="skill">
+    <span>SQL</span>
+    <div class="progress"><div style="width: 85%"></div></div>
+  </div>
+  <div class="skill">
+    <span>Machine Learning</span>
+    <div class="progress"><div style="width: 80%"></div></div>
+  </div>
+  <div class="skill">
+    <span>Data Visualization (Power BI / Tableau)</span>
+    <div class="progress"><div style="width: 75%"></div></div>
+  </div>
+  <div class="skill">
+    <span>Statistics & Data Analysis</span>
+    <div class="progress"><div style="width: 70%"></div></div>
+  </div>
+</section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio fade-in">
+    <h2>My Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1" />
+        <h3>Project 1</h3>
+        <p>Short description of project 1.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2" />
+        <h3>Project 2</h3>
+        <p>Short description of project 2.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3" />
+        <h3>Project 3</h3>
+        <p>Short description of project 3.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="socials">
+      <a href="https://github.com/Irfan1401">GitHub</a> |
+      <a href="https://www.linkedin.com/in/irfan-tanzilurrahman-b5a35537a">LinkedIn</a> |
+      <a href="#">Instagram</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Irfan Tanzilur Rahman. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
